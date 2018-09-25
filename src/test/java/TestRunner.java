@@ -10,6 +10,10 @@ public class TestRunner extends BrowserClass {
         AboutSubMenuPage aboutSubMenu = new AboutSubMenuPage(driver);
         aboutSubMenu.aboutclk();
 
+        ServicesSubPage servicesSubMenu = new ServicesSubPage(driver);
+        servicesSubMenu.services();
+
+
 
     }
 
